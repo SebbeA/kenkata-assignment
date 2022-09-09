@@ -56,6 +56,20 @@ html, body {
         color: var(--color-white);
     }
 
+.btn-white {
+    background-color: var(--color-white);
+    color: var(--color-theme);
+    border-radius: var(--border-radius-medium);
+    font-weight: var(--font-weight-medium);
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+}
+    .btn-white:hover {
+        background-color: var(--color-theme-dark);
+        color: var(--color-white);
+    }    
+
+
     /* top-menu */
 
 .top-menu {
@@ -217,3 +231,27 @@ html, body {
             justify-content: end;
             align-items: center;
         }
+
+/* Showcase */
+
+.showcase {
+    background-color: var(--color-grey-3);
+}
+    .showcase .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .showcase .showcase-body h1 {
+        font-family: var(--font-play);
+        font-size: var(--font-size-60);
+    }
+        .showcase .showcase-body h1 strong {
+            font-weight: var(--font-weight-bold);
+            color: var(--color-theme);
+        }
+
+    .showcase .showcase-body p {
+        margin: 2.5rem 0;
+    }
