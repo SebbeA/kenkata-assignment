@@ -55,7 +55,7 @@ html, body {
         background-color: var(--color-theme-dark);
         color: var(--color-white);
     }
-
+    
 .btn-white {
     background-color: var(--color-white);
     color: var(--color-theme);
@@ -68,6 +68,24 @@ html, body {
         background-color: var(--color-theme-dark);
         color: var(--color-white);
     }    
+
+.section-title {
+    padding: 4rem 0;
+    color: var(--color-theme-dark);
+    text-align: center;
+}
+    .section-title h1 {
+        font-family: var(--font-play);
+        font-weight: var(--font-weight-bold);
+        font-size: var(--font-size-36);
+    }
+        .section-title h1 span {
+            color: var(--color-theme);
+        }
+
+    .section-title p {
+        margin: 1rem 0;
+    }
 
 
     /* top-menu */
@@ -294,3 +312,9 @@ html, body {
             .webshop-info .info-box:hover h1 {
                 color: var(--color-white);
             }
+
+/* shop-by-category */
+
+.shop-by-category {
+    
+}
