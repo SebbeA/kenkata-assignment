@@ -377,6 +377,8 @@ html, body {
                 margin-top:  0.5rem;
             }
 
+        /* Grid */
+
     #category-box-1 {
         grid-column: 1 / 2;
         grid-row: 1 / 2;
@@ -405,6 +407,8 @@ html, body {
         grid-column: 5 / -1;
         grid-row: 3 / -1;
     }
+
+    /* New arrivals */
 
 .new-arrivals {
     margin-top: 4rem;
