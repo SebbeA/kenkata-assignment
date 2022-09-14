@@ -245,6 +245,7 @@ html, body {
                 justify-content: space-between;
                 align-items: center;
                 padding: 0.7rem 1rem;
+                transition: 0.15s ease-in-out;
             }
                 .main-menu nav .browse-categories button:hover {
                     background-color: var(--color-dark);
@@ -308,6 +309,7 @@ html, body {
         margin: 0 1rem;
         flex: 1;
         border-radius: var(--border-radius-small);
+        transition: all 0.3s ease-in-out;
     }
         .webshop-info .info-box:hover {
             background-color: var(--color-theme);
@@ -316,15 +318,18 @@ html, body {
 
         .webshop-info .info-box img {
             margin-right: 1.5rem;
+            filter: brightness(100%);
+            transition: all 0.35s ease-in-out;
         }
             .webshop-info .info-box:hover img {
-                filter: sepia(0%) brightness(1000%);
+                filter: brightness(1000%);
             }
 
         .webshop-info .info-box h1 {
             color: var(--color-theme);
             font-size: 1rem;
             font-weight: var(--font-weight-medium);
+            transition: all 0.3s ease-in-out;
         }
             .webshop-info .info-box:hover h1 {
                 color: var(--color-white);
@@ -359,6 +364,7 @@ html, body {
             padding: 0.5rem 1rem;
             font-weight: var(--font-weight-medium);
             height: 38px;
+            transition: 0.2s ease-in-out;
         }
             .shop-by-category .category-box:hover .category-box-title {
                 height: 75px;
@@ -399,3 +405,7 @@ html, body {
         grid-column: 5 / -1;
         grid-row: 3 / -1;
     }
+
+.new-arrivals {
+    margin-top: 4rem;
+}
