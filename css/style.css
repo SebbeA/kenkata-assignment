@@ -546,11 +546,11 @@ html, body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 0.5rem;
+        /* padding: 0 0.5rem; */
     }
 
     .new-customer .container .new-customer-body {
-        padding: 6.5rem 1rem;
+        padding: 5.5rem 1rem;
         height: 380px;
         width: 260px;
         background-color: var(--color-theme);
@@ -559,10 +559,15 @@ html, body {
 
     .new-customer .container .new-customer-body h1 {
         font-family: var(--font-play);
-        font-size: var(--font-size-36);
+        font-size: 3.75rem;
         color: var(--color-white);
         text-align: center;
     }
+        .new-customer .container .new-customer-body h1 > span {
+            font-family: var(--font-play);
+            font-weight: var(--font-weight-bold);
+            font-size: 2.25rem;
+        }
         .new-customer .container .new-customer-body h1 strong {
             font-weight: var(--font-weight-bold);
             color: var(--color-white);
@@ -603,6 +608,7 @@ html, body {
         .featured-products .card img {
             height: 400px;
         }
+
 
     .featured-products .card .card-body {
         position: absolute;
@@ -691,3 +697,94 @@ html, body {
                     .featured-products .card .card-menu li a:hover {
                         color: var(--color-theme);
                     }
+
+.flash-sale {
+    background-color: var(--color-theme-dark);
+    margin-top: 7rem;
+    margin-bottom: 3rem;
+}
+    .flash-sale .container {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 435px;
+    }
+
+    .flash-sale .container .flash-sale-body {
+        position: absolute;
+        top: 0;
+        height: 250px;
+        width: 260px;
+        background-color: var(--color-theme);
+        color: var(--color-white);
+        text-align: center;
+    }
+        .flash-sale .container .flash-sale-body h1 {
+            font-family: var(--font-play);
+            font-size: 3.75rem;
+            color: var(--color-white);
+            padding-top: 1.5rem;
+            text-align: center;
+        }
+            .flash-sale .container .flash-sale-body h1 strong {
+                font-weight: var(--font-weight-bold);
+                color: var(--color-white);
+                text-align: center;
+                margin: 0;
+            }
+
+        .flash-sale .container .flash-sale-body p {
+            font-family: var(--font-roboto);
+            font-weight: var(--font-weight-medium);
+            font-size: 1.5rem;
+            padding-bottom: 5rem;
+            color: var(--color-white);
+            text-align: center;
+        }
+    
+    .flash-sale .container .circle {
+        position: absolute;
+        top: 23%;
+        right: 5%;
+    }
+    .flash-sale .container .circle .dot {
+        height: 110px;
+        width: 110px;
+        background-color: var(--color-white);
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        margin: 0 0.5rem;
+        border: dotted;
+        border-color: var(--color-theme);
+    }
+        .flash-sale .container .circle span {
+            font-size: 2.25rem;
+            font-weight: var(--font-weight-bold);
+            color: var(--color-theme);
+            text-align: center;
+            padding-top: 1.1rem;
+        }
+            .flash-sale .container .circle span p {
+                font-family: var(--font-roboto);
+                font-weight: var(--font-weight-regular);
+                font-size: 1rem;
+                color: var(--color-theme-dark);
+                margin: -10px;
+            }
+
+    .flash-sale .container .circle a {
+        position: absolute;
+        bottom: -75%;
+        left: 33%;
+        display: block;
+    }
+        .flash-sale .container .circle a:hover {
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            border: none;
+        }
+    
+
+
