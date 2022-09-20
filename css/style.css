@@ -1,4 +1,4 @@
-    /* import and root */
+    /* import and root taken from Hans video */
 
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
@@ -14,6 +14,7 @@
     --color-grey-2: #E3E3E3;
     --color-grey-3: #EEEEEE;
     --color-grey-4: #F6F6F6;
+    --color-grey-5: #777777;
     --color-product-instock: #82D8C6;
     --color-product-outofstock: #FE6C6C;
     
@@ -34,7 +35,7 @@
     --border-radius-rounded: 50%;
 }
 
-    /* general */
+    /* general taken from Hans video */
 
 html, body {
     font-size: 16px;
@@ -97,6 +98,10 @@ html, body {
     color: var(--color-product-outofstock);
 }
 
+.required {
+    color: var(--color-theme);
+}
+
 .section-title {
     padding: 3rem 0;
     color: var(--color-theme-dark);
@@ -114,6 +119,67 @@ html, body {
     .section-title p {
         margin: 1rem 0;
     }
+
+a {
+    color: var(--color-theme);
+    font-weight: var(--font-weight-regular);
+    text-decoration: none;
+}
+    a:hover {
+            color: var(--color-theme-dark);
+            text-decoration: underline;
+    }
+
+    /* Log in and register taken from Hans video*/
+
+.form-theme .card {
+    padding: 1.5rem;
+    border: none;
+    border-radius: var(--border-radius-small);
+    background-color: var(--color-grey-4);
+}
+
+    .form-theme .card .card-body h1 {
+        font-family: var(--font-roboto);
+        font-weight: var(--font-weight-medium);
+        font-size: 1.5rem;
+        color: var(--color-theme-dark);
+    }
+
+    .form-theme .card .card-body .card-text {
+        margin: 1.5rem 0;
+        line-height: 2;
+    }
+        .form-theme .card .card-body .card-text a {
+            font-weight: var(--font-weight-medium);
+        }
+
+        .form-theme .card .card-body .card-text.text-small {
+            color: var(--color-grey-5);
+            font-size: 0.875rem;
+        }
+        
+    .form-theme form input[type=checkbox] {
+        height: 20px;
+        width: 20px;
+        display: inline-block;
+    }
+
+    .form-theme form input[type=text],
+    .form-theme form input[type=email],
+    .form-theme form input[type=password] {
+        display: block;
+        width: 100%;
+        border: none;
+        border-radius: var(--border-radius-small);
+        padding: 0.6rem 0.9rem;
+        margin: 0.2rem 0;
+    }
+    .form-theme form input:focus {
+        outline: 0;
+        box-shadow: 0 0 3px 0 var(--color-grey-0);
+    }
+
 
 
     /* top-menu */
@@ -787,7 +853,7 @@ html, body {
             border: none;
         }
 
-        /* breadcrumb */
+        /* breadcrumb, fortsätt index.html ovanför */
     
 .site-title {
     background-color: var(--color-theme-dark-light);
@@ -838,3 +904,68 @@ html, body {
                     text-decoration: underline;
                 }
 
+        /* Login and Register */
+
+.signup-signin {
+    margin: 6rem 0;
+}
+    .signup-signin .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+        align-items: start;
+    }
+
+.external-logins {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+}
+    .external-logins .label {
+        background-color: var(--color-grey-4);
+        padding: 0 0.8rem;
+        z-index: 2;
+    }
+        .external-logins .line {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            right: 0;
+            border: 1px solid var(--color-grey-0);
+            opacity: 0.5;
+            z-index: -1;
+        }
+
+.external-socialmedia-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+}
+    .external-socialmedia-buttons .facebook-button {
+        text-align: left;
+    }
+        .external-socialmedia-buttons .facebook-button button {
+            background-image: url(../images/buttons/facebook-login-button.svg);
+            background-repeat: no-repeat;
+            border: none;
+            height: 42px;
+            width: 235px;
+        }
+            .external-socialmedia-buttons .facebook-button button:hover {
+                filter: brightness(90%);
+            }
+            
+    .external-socialmedia-buttons .google-button {
+        text-align: right;
+    }
+        .external-socialmedia-buttons .google-button button {
+            background-image: url(../images/buttons/google-login-button.svg);
+            background-repeat: no-repeat;
+            border: none;
+            height: 42px;
+            width: 235px;
+        }
+            .external-socialmedia-buttons .google-button button:hover {
+                filter: brightness(90%);
+            }
