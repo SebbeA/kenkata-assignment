@@ -180,6 +180,16 @@ a {
         box-shadow: 0 0 3px 0 var(--color-grey-0);
     }
 
+.copyright {
+    background-color: var(--color-dark);
+    height: 80px;
+}
+    .copyright p {
+        color: var(--color-white);
+        padding-top: 30px;
+        text-align: left;
+    }
+
 
 
     /* top-menu */
@@ -1095,6 +1105,7 @@ a {
         width: 650px;
         background-color: var(--color-grey-1);
     }
+
 
         /* breadcrumb for account.html, copy from Hans video, fortsätt index.html ovanför */
     
