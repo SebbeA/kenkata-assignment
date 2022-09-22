@@ -999,13 +999,11 @@ a {
         .top-seller-box .card:hover .card-menu {
             top: 20px;
         }
-
             .top-seller-box .card .card-menu li {
                 margin-top: 0.3rem;
                 margin-bottom: 0.3rem;
                 font-size: 1.0em;
             }
-
                 .top-seller-box .card .card-menu li a {
                     color: var(--color-grey-0);
                 }
@@ -1026,6 +1024,77 @@ a {
     grid-row: 2 / -1;
 }
 
+/* subscribe now */
+
+.subscribe-now {
+    margin-top: 5rem;
+    background-color: var(--color-grey-4);
+}
+    .subscribe-now .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 320px;
+    }
+    .subscribe-now .container .subscribe-title {
+        width: 435px;
+    }
+        .subscribe-now .container .subscribe-title h1 {
+            font-family: var(--font-play);
+            font-weight: var(--font-weight-bold);
+            font-size: 2.25rem;
+            color: var(--color-theme-dark);
+        }
+            .subscribe-now .container .subscribe-title h1 span {
+                font-family: var(--font-play);
+                font-weight: var(--font-weight-bold);
+                font-size: 2.25rem;
+                color: var(--color-theme);
+            }
+
+        .subscribe-now .container .subscribe-title p {
+            font-family: var(--font-roboto);
+            font-weight: var(--font-weight-regular);
+            font-size: 1rem;
+        }
+
+    .subscribe-now .subscribe-title #subscribeboxForm {
+        border-radius: var(--border-radius-medium);
+        height: 45px;
+        margin: auto;
+        position: relative;
+    }
+        .subscribe-now .subscribe-title #subscribeboxForm input {
+            position: absolute;
+            border-radius: var(--border-radius-medium);
+            height: 100%;
+            width: 100%;
+            outline: none;
+            border: 1px solid var(--color-grey-2);
+            font-size: 0.9rem;
+            padding-left: 1.3rem;
+        }
+        .subscribe-now .subscribe-title #subscribeboxForm button {
+            position: absolute;
+            top: 0;
+            right: -1px;
+            width: 100px;
+            height: 100%;
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            border: none;
+            border-radius: var(--border-radius-medium); 
+            transition: 0.3s ease-in-out;
+        }
+            .subscribe-now .subscribe-title #subscribeboxForm button:hover {
+                background-color: var(--color-theme-dark);
+            }
+
+    .subscribe-now .container .sub-body {
+        height: 320px;
+        width: 650px;
+        background-color: var(--color-grey-1);
+    }
 
         /* breadcrumb for account.html, copy from Hans video, fortsätt index.html ovanför */
     
