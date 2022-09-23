@@ -180,6 +180,8 @@ a {
         box-shadow: 0 0 3px 0 var(--color-grey-0);
     }
 
+    /* General for Copyright */
+
 .copyright {
     background-color: var(--color-dark);
     height: 80px;
@@ -192,7 +194,7 @@ a {
 
 
 
-    /* top-menu */
+    /* top-menu copy from Hans video */
 
 .top-menu {
     background-color: var(--color-theme);
@@ -263,7 +265,7 @@ a {
                 }
 
 
-    /* main-menu  */
+    /* main-menu copy from Hans video */
 
 .main-menu {
     background-color: var(--color-white);
@@ -401,7 +403,7 @@ a {
             align-items: center;
         }
 
-/* Showcase */
+/* Showcase copy from Hans video */
 
 .showcase {
     background-color: var(--color-grey-3);
@@ -469,7 +471,7 @@ a {
                 color: var(--color-white);
             }
 
-/* shop-by-category */
+/* shop-by-category copy from Hans video */
 
     .shop-by-category .grid {
         display: grid;
@@ -511,7 +513,7 @@ a {
                 margin-top:  0.5rem;
             }
 
-        /* shop by category grid */
+        /* shop by category grid copy from Hans video */
 
     #category-box-1 {
         grid-column: 1 / 2;
@@ -542,7 +544,7 @@ a {
         grid-row: 3 / -1;
     }
 
-    /* New arrivals */
+    /* New arrivals copy from Hans video */
 
 .new-arrivals {
     padding-top: 4rem;
@@ -656,7 +658,6 @@ a {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* padding: 0 0.5rem; */
     }
 
     .new-customer .container .new-customer-body {
@@ -705,6 +706,8 @@ a {
         text-align: center;
         text-align: left;
     }
+
+    /* featured products */
 
 .featured-products {
     padding-top: 2rem;
@@ -808,6 +811,8 @@ a {
                         color: var(--color-theme);
                     }
 
+        /* flash sale with countdown circles */
+
 .flash-sale {
     background-color: var(--color-theme-dark);
     margin-top: 7rem;
@@ -898,7 +903,7 @@ a {
             border: none;
         }
         
-        /* top sellers with grid */
+        /* top sellers with grid, done with Christian Forsberg */
 
 .top-seller-box {
     padding-top: 3rem;
@@ -1034,7 +1039,7 @@ a {
     grid-row: 2 / -1;
 }
 
-/* subscribe now */
+/* subscribe now done with Christian Forsberg */
 
 .subscribe-now {
     margin-top: 5rem;
@@ -1107,7 +1112,7 @@ a {
     }
 
 
-        /* breadcrumb for account.html, copy from Hans video, fortsätt index.html ovanför */
+        /* breadcrumb for account.html, copy from Hans video */
     
 .site-title {
     background-color: var(--color-theme-dark-light);
