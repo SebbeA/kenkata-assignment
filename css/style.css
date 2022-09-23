@@ -554,6 +554,9 @@ a {
         position: relative;
         height: 380px;
         overflow: hidden;
+        border: none;
+        background-color: var(--color-grey-3);
+        border-radius: var(--border-radius-small);
     }
         .new-arrivals .card img {
             height: 400px;
@@ -717,6 +720,9 @@ a {
         position: relative;
         height: 380px;
         overflow: hidden;
+        border: none;
+        background-color: var(--color-grey-3);
+        border-radius: var(--border-radius-small);
     }
         .featured-products .card img {
             height: 400px;
