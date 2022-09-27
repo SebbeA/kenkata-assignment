@@ -52,6 +52,7 @@ html, body {
     font-weight: var(--font-weight-medium);
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+    transition: 0.3s ease-in-out;
 }
     .btn-theme:hover {
         background-color: var(--color-theme-dark);
@@ -65,6 +66,7 @@ html, body {
     font-weight: var(--font-weight-medium);
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+    transition: 0.3s ease-in-out;
 }
     .btn-theme-dark:hover {
         background-color: var(--color-white);
@@ -78,6 +80,7 @@ html, body {
     font-weight: var(--font-weight-medium);
     padding-left: 1.75rem;
     padding-right: 1.75rem;
+    transition: 0.3s ease-in-out;
 }
     .btn-white:hover {
         background-color: var(--color-theme-dark);
@@ -937,6 +940,7 @@ a {
 
     .flash-sale .container .circle span {
         font-size: 2.25rem;
+        font-family: var(--font-play);
         font-weight: var(--font-weight-bold);
         color: var(--color-theme);
         text-align: center;
